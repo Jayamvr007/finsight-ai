@@ -1,0 +1,71 @@
+DOCUMENT: Indian Stock Market Overview & Sector Analysis
+PERIOD: FY2025 and Outlook FY2026
+SOURCE: FinSight AI Research Database
+
+=== NIFTY 50 OVERVIEW ===
+
+CURRENT MARKET STATUS (May 2025)
+- NIFTY 50 Index: ~24,200 levels (YTD: +6.2%)
+- SENSEX: ~79,800 (BSE)
+- Market Cap of NSE listed companies: ₹4,20,00,000 Crore (~$5 Trillion)
+- India now world's 4th largest stock market by market cap
+- FII inflows FY25: ₹1,27,854 Crore (net positive after 2 years of outflows)
+- DII inflows FY25: ₹5,48,291 Crore (domestic investors strongest ever)
+
+NIFTY 50 VALUATION METRICS
+- P/E Ratio: 21.3x (10-year average: 20.5x — slightly premium)
+- P/B Ratio: 3.4x
+- Earnings Growth FY25: 14.2%
+- Expected Earnings Growth FY26: 16–18%
+- India GDP Growth FY25: 6.8% (IMF forecast FY26: 6.5%)
+
+=== SECTOR PERFORMANCE (FY25) ===
+
+TOP PERFORMING SECTORS
+1. Banking & Financial Services: +18.4% — led by HDFC Bank, Kotak
+2. IT Services: +14.2% — AI deal wins driving re-rating
+3. Auto & EV: +22.7% — Tata Motors, M&M strong on EV demand
+4. Capital Goods: +31.2% — infrastructure capex boom
+5. Healthcare & Pharma: +19.8% — US generic approvals surge
+
+UNDERPERFORMING SECTORS
+1. FMCG: +3.2% — rural slowdown, margin pressure
+2. Real Estate: -2.1% — interest rate sensitivity
+3. Oil & Gas: +1.8% — crude volatility, O2C margin compression
+4. Telecom: +8.1% — ARPU growth but capex heavy
+
+=== INTEREST RATE ENVIRONMENT ===
+- RBI Repo Rate: 6.0% (cut 50bps in FY25, signals easing cycle)
+- Expected cuts in FY26: 2 more cuts of 25bps each (RBI commentary)
+- Impact: Positive for rate-sensitive sectors (Banks, NBFCs, Real Estate)
+- Inflation (CPI): 4.1% — within RBI's 4% ±2% target band
+
+=== FII/DII ACTIVITY ===
+- Foreign Institutional Investors (FIIs) returned to buying in Q4 FY25
+- Top FII buys: Banking, IT, Pharma
+- Domestic SIP inflows: ₹26,632 Crore/month (record)
+- Retail demat accounts: 185 million — growing 2 million/month
+
+=== KEY MACRO THEMES FOR FY26 ===
+1. AI adoption driving IT services revenue acceleration
+2. PLI schemes boosting manufacturing capex
+3. China+1 strategy benefiting Indian pharma and electronics
+4. Rural recovery expected as monsoon normalizes
+5. Government infrastructure spending: ₹11.1 Lakh Crore capex in Union Budget
+
+=== INVESTMENT STYLE GUIDE ===
+LARGE CAP: Relatively safe, liquidity high, FII friendly
+- Examples: Reliance, TCS, HDFC Bank, Infosys, ICICI Bank
+
+MID CAP: Higher growth potential, more volatile
+- Strong sectors: Capital goods, specialty chemicals, specialty finance
+
+SMALL CAP: High risk / high reward — for long-term investors only
+- Avoid in uncertain rate environments
+
+=== RISK FACTORS FOR INDIAN MARKET (FY26) ===
+1. US recession risk could trigger FII outflows
+2. Geopolitical tensions (India-Pakistan border, Middle East)
+3. El Niño impact on monsoon — rural economy risk
+4. RBI regulatory tightening on unsecured lending (personal loans, credit cards)
+5. Global crude oil spike — inflation and CAD widening risk

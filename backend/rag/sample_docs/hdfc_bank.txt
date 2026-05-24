@@ -1,0 +1,55 @@
+COMPANY: HDFC Bank Limited
+TICKER: HDFCBANK.NS
+SECTOR: Private Sector Banking & Financial Services
+EXCHANGE: NSE / BSE
+
+=== ANNUAL REPORT SUMMARY FY2024-25 ===
+
+REVENUE & PROFITABILITY
+- Net Interest Income (NII): ₹1,10,646 Crore — up 8.2% YoY
+- Net Revenue: ₹1,65,123 Crore
+- Net Profit (PAT): ₹68,482 Crore — up 12.4% YoY (strong growth)
+- EPS: ₹89.65 per share
+- Return on Assets (ROA): 1.9% — industry benchmark
+- Return on Equity (ROE): 17.2%
+
+BALANCE SHEET STRENGTH
+- Total Assets: ₹41,22,354 Crore — India's largest private bank by assets
+- Gross NPA: 1.24% (one of the lowest in Indian banking)
+- Net NPA: 0.36% — exceptional asset quality
+- Capital Adequacy Ratio (CAR): 19.5% — well above RBI's 11.5% requirement
+- Loan Book Growth: 15.8% YoY
+- CASA Ratio: 46.8% (high CASA = low-cost deposits = competitive advantage)
+
+KEY FINANCIAL METRICS
+- Market Cap: ~₹13,80,000 Crore
+- P/E Ratio: 19.8x (attractive vs 5-year avg of 23x)
+- P/B Ratio: 3.1x (slightly below historical premium of 3.8x)
+- Dividend Yield: 1.1%
+- Book Value per Share: ₹526
+
+MERGER INTEGRATION (HDFC Ltd merger — completed July 2023)
+- Successfully merged parent HDFC Ltd — created India's largest bank
+- Home loan portfolio: ₹8,40,000 Crore — dominant market leader (34% share)
+- Integration synergies realized: ₹4,200 Crore in FY25
+- Credit-Deposit (CD) ratio improved from 110% to 102% (normalizing)
+- Liquidity Coverage Ratio (LCR): 123% (RBI min: 100%)
+
+DIGITAL & TECHNOLOGY
+- Mobile banking users: 96 million — industry leading
+- UPI transactions: 4.2 Billion in FY25
+- SmartHub Vyapar: 3.2 million merchant partners
+- AI-powered credit scoring deployed for MSME lending
+
+ANALYST CONSENSUS
+- 34 out of 42 analysts: BUY (strong consensus)
+- Average target price: ₹2,050 (current: ~₹1,720)
+- Upside potential: ~19% — one of most bullish large-cap calls
+- Key re-rating trigger: CD ratio normalization + margin expansion
+
+RISKS TO MONITOR
+1. RBI potential changes to LCR norms could require more liquid assets
+2. Rising competition from Kotak, Axis in SME lending
+3. Home loan margin compression as mortgage rates fall
+4. Merger integration costs continue to weigh in short-term
+5. Regulatory scrutiny post-merger on pricing practices

@@ -1,0 +1,59 @@
+COMPANY: Tata Consultancy Services (TCS)
+TICKER: TCS.NS
+SECTOR: Information Technology Services
+EXCHANGE: NSE / BSE
+
+=== ANNUAL REPORT SUMMARY FY2024-25 ===
+
+REVENUE & PROFITABILITY
+- Total Revenue: $30.2 Billion USD (₹2,51,656 Crore) — up 5.6% YoY in USD terms
+- EBIT Margin: 24.5% — maintained despite global slowdown (industry-leading)
+- Net Profit (PAT): ₹48,553 Crore — flat growth due to wage hikes
+- EPS: ₹132.75 per share
+- Free Cash Flow: ₹50,874 Crore (FCF conversion: 104.8% of PAT — excellent)
+
+SEGMENT REVENUE BY GEOGRAPHY
+- North America: 52.2% of revenue (largest market, grew 4.1%)
+- Europe: 29.5% (resilient, grew 6.8%, led by BFSI clients)
+- India: 5.7% (grew 14.2% — fastest growing geography)
+- Rest of World: 12.6%
+
+SEGMENT REVENUE BY VERTICAL
+- BFSI: 30.2% — stable, key clients: JPMorgan, Barclays, BNY Mellon
+- Consumer Business: 15.5%
+- Communications & Media: 6.8%
+- Manufacturing: 8.8%
+- Life Sciences: 8.5%
+- Technology & Services: 17.5%
+
+KEY FINANCIAL METRICS
+- Market Cap: ~₹14,20,000 Crore
+- P/E Ratio: 28.3x (premium vs sector average of 24x)
+- Debt: Almost zero — net cash positive company
+- Return on Equity (ROE): 51.3% — exceptional capital efficiency
+- Dividend Yield: 1.9% — ₹28 + special dividend ₹18 per share (total ₹46)
+- Buyback history: ₹17,000 Crore buyback completed in FY24
+
+DEAL WINS & PIPELINE
+- Total Contract Value (TCV) of new deals: $42.7 Billion (FY25) — record high
+- Large deal wins: 31 deals above $100M in FY25
+- AI and Cloud deals: 68% of new deals include AI transformation component
+- Key win: $1.5B deal with UK government (HMRC digital transformation)
+
+RECENT DEVELOPMENTS (2025)
+- TCS AI platform "WisdomNext" deployed at 200+ enterprise clients
+- Headcount: 601,546 employees — attrition improved to 12.5% (from 17.8%)
+- New AI labs opened in Bengaluru, Amsterdam, and Toronto
+- Strong deal pipeline in Europe driven by cost optimization mandates
+
+ANALYST CONSENSUS
+- 22 out of 38 analysts: HOLD (8 BUY, 8 SELL)
+- Average target price: ₹4,050 (current: ~₹3,820)
+- Upside potential: ~6% — fairly valued at current levels
+
+RISKS TO MONITOR
+1. Demand slowdown in North America — US recession risk in 2025
+2. BFSI client discretionary spending cuts
+3. Rupee appreciation could hurt revenue in INR terms
+4. AI disruption could reduce headcount-dependent billing model
+5. Increasing competition from Infosys, HCLTech in large deal pursuit
