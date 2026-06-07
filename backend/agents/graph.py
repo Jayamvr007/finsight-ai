@@ -1,10 +1,10 @@
 """
-LangGraph StateGraph Definition
-Defines the full agent workflow with HITL interrupt.
+LangGraph StateGraph Definition — Production Version
+Compiled per-request with an async PostgreSQL checkpointer for durable state persistence.
 
 Graph Flow:
-START → planner → web_search → rag_retrieval → analysis → synthesis → human_review → END
-                                                                              ↑
+START → planner → market_data → web_search → rag_retrieval → analysis → synthesis → human_review → END
+                                                                                          ↑
                                                                (interrupt here — waits for human)
                                                                approved → END
                                                                rejected  → synthesis (retry, max 2x)
@@ -26,7 +26,7 @@ from agents.nodes import (
 )
 
 from langgraph.graph import StateGraph, START, END
-from langgraph.checkpoint.memory import MemorySaver
+from langgraph.checkpoint.base import BaseCheckpointSaver
 
 
 # ─────────────────────────────────────────
@@ -48,7 +48,6 @@ def route_after_human_review(state: AgentState) -> str:
     elif approved is False and retry_count < 2:
         return "retry_synthesis"
     else:
-        # Max retries or no decision yet — end
         return "end"
 
 
@@ -58,15 +57,24 @@ def increment_retry(state: AgentState) -> dict:
 
 
 # ─────────────────────────────────────────
-# Build the Graph
+# Graph Builder
 # ─────────────────────────────────────────
 
-def build_graph():
-    """Build and compile the LangGraph StateGraph."""
-
+def build_graph(checkpointer: BaseCheckpointSaver):
+    """
+    Build and compile the LangGraph StateGraph with an injected checkpointer.
+    
+    Called once per startup with the AsyncPostgresSaver for persistent state.
+    The same compiled graph is reused across all sessions — thread isolation
+    is handled by the unique `thread_id` in each request's config.
+    
+    Args:
+        checkpointer: Any LangGraph-compatible saver (MemorySaver in dev,
+                      AsyncPostgresSaver in production).
+    """
     workflow = StateGraph(AgentState)
 
-    # Add all nodes
+    # ── Register nodes ──
     workflow.add_node("planner", planner_node)
     workflow.add_node("market_data", market_data_node)
     workflow.add_node("web_search", web_search_node)
@@ -76,7 +84,7 @@ def build_graph():
     workflow.add_node("human_review", human_review_node)
     workflow.add_node("increment_retry", increment_retry)
 
-    # Define edges (sequential flow)
+    # ── Sequential pipeline edges ──
     workflow.add_edge(START, "planner")
     workflow.add_edge("planner", "market_data")
     workflow.add_edge("market_data", "web_search")
@@ -85,7 +93,7 @@ def build_graph():
     workflow.add_edge("analysis", "synthesis")
     workflow.add_edge("synthesis", "human_review")
 
-    # Conditional edge after human review
+    # ── HITL conditional routing ──
     workflow.add_conditional_edges(
         "human_review",
         route_after_human_review,
@@ -95,21 +103,13 @@ def build_graph():
         }
     )
 
-    # After retry increment → back to synthesis
+    # ── Retry loop ──
     workflow.add_edge("increment_retry", "synthesis")
 
-    # Memory checkpointer — enables HITL (interrupt + resume)
-    memory = MemorySaver()
-
-    # Compile with interrupt BEFORE human_review
-    # This pauses execution at human_review and waits for external input
+    # ── Compile with persistent checkpointer + HITL interrupt ──
     graph = workflow.compile(
-        checkpointer=memory,
+        checkpointer=checkpointer,
         interrupt_before=["human_review"]
     )
 
     return graph
-
-
-# Singleton graph instance
-graph = build_graph()
